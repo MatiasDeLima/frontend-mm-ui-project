@@ -1,5 +1,6 @@
 
 .sidebar {
+    z-index: 100;
     padding: 2rem 1.5rem;
     height: 100%;
     overflow-y: hidden;
@@ -14,6 +15,7 @@
     column-gap: .25rem;
     font-weight: 600;
     margin-bottom: 3.5rem;
+    color: #121212;
 }
 
 .sidebar__logo img {
@@ -41,13 +43,25 @@
 .sidebar__list {
     display: flex;
     flex-direction: column;
-    row-gap: 2rem;
+    row-gap: 1.25rem;
 }
 
 .sidebar__link {
+    padding: .5rem;
     display: flex;
     align-items: center;
     column-gap: .8rem;
     color: #606060;
     font-weight: 500;
+    font-size: .875rem;
+}
+
+.sidebar__link:hover {
+    background-color: #f6f6f6;
+    border-radius: 2rem;
+}
+
+.sidebar__link:hover .sidebar__icon{
+    color: #fff;
+    background-color: #01AB6C;
 }

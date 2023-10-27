@@ -22,9 +22,32 @@ a {
   margin-inline: 1.5rem;
 }
 
+.main {
+  overflow: hidden;
+}
+
+.main__container {
+  grid-area: main;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.main__cards {
+  display: grid;
+  gap: 24px;
+  margin: 15px 0;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 12px #dbdbdb70;
+}
+
 .grid__container {
   display: grid;
-  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-columns: 270px 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 3fr;
   grid-template-areas: 
     "sidebar header header header"

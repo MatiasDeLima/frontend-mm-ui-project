@@ -1,7 +1,13 @@
 
 const GerenciamentoUrbano = () => {
   return (
-    <div>GerenciamentoUrbano</div>
+    <div className="gerenciamento__container">
+      <div className="main__cards container">
+        <article className="card">
+          
+        </article> 
+    </div>
+    </div>
   )
 }
 

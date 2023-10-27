@@ -8,7 +8,11 @@ const Layout = () => {
       <div className="grid__container">
         <SideBar />
         <Header />
-        <Routers />
+        <div className="main main__container">
+          <div className="container">
+            <Routers />
+          </div>
+        </div>
       </div>
     </>
   );
