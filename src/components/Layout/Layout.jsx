@@ -6,8 +6,8 @@ const Layout = () => {
   return (
     <>
       <div className="grid__container">
-        <Header />
         <SideBar />
+        <Header />
         <Routers />
       </div>
     </>

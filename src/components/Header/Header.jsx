@@ -1,8 +1,14 @@
-
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header className="header">
+      <nav className="nav container">
+          <div className="search__bar">
+            <i className="ri-search-line"></i> Search...
+          </div>
+      </nav>
+    </header>
   )
 }
 

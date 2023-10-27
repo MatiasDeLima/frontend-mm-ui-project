@@ -1,0 +1,53 @@
+
+.sidebar {
+    padding: 2rem 1.5rem;
+    height: 100%;
+    overflow-y: hidden;
+    top: 0 ;
+    left: 0;
+    grid-area: sidebar;
+}
+
+.sidebar__logo {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .25rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+.sidebar__logo img {
+    width: 32px;
+}
+
+.sidebar__icon {
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    padding: .5rem;
+    color: #606060;
+    transition: background .3s;
+}
+
+.sidebar__icon i {
+    font-size: 1.25rem;
+}
+
+.sidebar__active {
+    color: #fff;
+    background-color: #01AB6C;
+}
+
+.sidebar__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.sidebar__link {
+    display: flex;
+    align-items: center;
+    column-gap: .8rem;
+    color: #606060;
+    font-weight: 500;
+}
